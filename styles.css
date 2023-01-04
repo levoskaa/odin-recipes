@@ -150,9 +150,20 @@ p {
   gap: 1.6rem;
 }
 
+@media only screen and (max-width: 1200px) {
+  .recipe-container {
+    width: 80%;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   html {
     font-size: 13px;
+  }
+
+  .recipe-container {
+    width: 100%;
+    padding: 1rem;
   }
 
   .site-title,
@@ -165,8 +176,8 @@ p {
   }
 }
 
-@media only screen and (max-width: 1200px) {
-  .recipe-container {
-    width: 90%;
+@media only screen and (max-width: 450px) {
+  body {
+    padding: 0;
   }
 }
