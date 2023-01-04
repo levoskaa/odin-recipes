@@ -130,8 +130,10 @@ p {
   border-radius: var(--border-radius);
   width: 70%;
   max-width: 400px;
+  max-height: 400px;
   height: auto;
   margin: 0 auto;
+  object-fit: contain;
 }
 
 .description,
