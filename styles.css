@@ -70,12 +70,11 @@ p {
   line-height: 1.5;
 }
 
-.home-container {
+#home-body {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 100%;
 }
 
 .site-title,
